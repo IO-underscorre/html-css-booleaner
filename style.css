@@ -27,11 +27,11 @@ header > img {
 }
 
 main {
-    padding-top: 1%;
+    padding-top: 1em;
 }
 
 section {
-    margin-top: 1%;
+    margin-top: 1em;
 }
 
 section > span {
