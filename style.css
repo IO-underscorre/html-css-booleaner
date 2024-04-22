@@ -12,6 +12,7 @@ body > * > * {
 
 header {
     height: 7.5vh;
+    
     background-image: url(images/pattern.png);
     background-repeat: repeat-x;
     background-color: #4ea0ff;
@@ -125,6 +126,7 @@ footer > span {
     top: 5%;
     left: 5%;
     width: 95%;
+
     color: #ffffff;
     font-size: 1.75rem;
     font-weight: 700;
