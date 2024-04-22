@@ -6,8 +6,8 @@
 
 /* To align every element without changing backgrounds */
 body > * > * {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 header {
