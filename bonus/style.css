@@ -28,11 +28,11 @@ header > img {
 }
 
 main {
-    padding-top: 1em;
+    padding-top: 1rem;
 }
 
 section {
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 section > span {
@@ -101,7 +101,7 @@ th:first-child , th:first-child + th {
 /* Table styling's end */
 
 footer {
-    padding-top: 2em;
+    padding-top: 2rem;
 }
 
 footer > span {
