@@ -6,7 +6,8 @@
 
 /* To align every element without changing backgrounds */
 body > * > * {
-    margin: auto 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 header {
@@ -38,11 +39,11 @@ section > span {
 }
 
 .article-title {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .article-author {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #7b7b7b;
 }
@@ -53,11 +54,11 @@ section > span {
 }
 
 .article-date {
-    font-size: 1em;
+    font-size: 1rem;
     color: #7b7b7b;
     font-weight: 500;
 }
 
 .image-attribution {
-    font-size: 1em;
+    font-size: 1rem;
 }
