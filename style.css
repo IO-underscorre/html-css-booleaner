@@ -98,3 +98,35 @@ th:first-child , th:first-child + th {
     width: 25%;
 }
 /* Table styling's end */
+
+footer {
+    padding-top: 2em;
+}
+
+footer > span {
+    display: block;
+    color: #7b7b7b;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Related articles styling */
+.related-article {
+    position: relative;
+    width: 20%;
+}
+
+.related-article > img {
+    width: 100%;
+}
+
+.related-article > div {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 95%;
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+/* Related articles styling's end */
