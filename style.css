@@ -24,3 +24,30 @@ header > img {
     position: absolute;
     bottom: 0px;
 }
+
+main {
+    padding-top: 1%;
+}
+
+section {
+    margin-top: 1%;
+}
+
+section > span {
+    display: block;
+}
+
+.article-title {
+    font-size: 3em;
+}
+
+.article-author {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #7b7b7b;
+}
+
+.article-author > em {
+    color: #22a9e5;
+    font-style: normal;
+}
