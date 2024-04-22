@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* To align every element without changing backgrounds */
+body > * > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+    height: 7.5vh;
+    
+    background-image: url(images/pattern.png);
+    background-repeat: repeat-x;
+    background-color: #4ea0ff;
+    background-size: 35%;
+    background-position: top;
+    position: relative;
+}
+
+header > img {
+    height: 70%;
+    position: absolute;
+    bottom: 0px;
+}
+
+main {
+    padding-top: 1em;
+}
+
+section {
+    margin-top: 1em;
+}
+
+section > span {
+    display: block;
+}
+
+.article-title {
+    font-size: 3rem;
+}
+
+.article-author {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #7b7b7b;
+}
+
+/* Author's name */
+.article-author > em {
+    color: #22a9e5;
+    font-style: normal;
+}
+
+.article-date {
+    font-size: 1rem;
+    color: #7b7b7b;
+    font-weight: 500;
+}
+
+.image-attribution {
+    font-size: 1rem;
+}
+
+.article-body {
+    font-size: 1.5rem;
+}
+
+.article-body > * {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* Make list items' bullets respect margin */
+ul li {
+    list-style-position: inside;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #4ea0ff;
+    text-align: left;
+    color: #ffffff;
+}
+
+tbody > tr:first-child , tbody > tr:last-child {
+    background-color: #b1e5f2;
+}
+
+/* Adjust first and second column of the table width*/
+th:first-child , th:first-child + th {
+    width: 25%;
+}
+/* Table styling's end */
+
+footer {
+    padding-top: 2em;
+}
+
+footer > span {
+    display: block;
+    color: #7b7b7b;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Related articles styling */
+.related-article {
+    position: relative;
+    width: 20%;
+}
+
+.related-article > img {
+    width: 100%;
+}
+
+.related-article > div {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 95%;
+
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+/* Related articles styling's end */
