@@ -51,3 +51,13 @@ section > span {
     color: #22a9e5;
     font-style: normal;
 }
+
+.article-date {
+    font-size: 1em;
+    color: #7b7b7b;
+    font-weight: 500;
+}
+
+.image-attribution {
+    font-size: 1em;
+}
